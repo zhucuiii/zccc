@@ -1,0 +1,48 @@
+/* zccc 灰色简约主题 - Stack 覆盖 */
+
+/* 主色 - 灰色系 */
+:root {
+    --body-background: #f5f5f5;
+    --accent-color: #555555;
+    --accent-color-darker: #3a3a3a;
+    --accent-color-text: #ffffff;
+    --body-text-color: #3a3a3a;
+    --tag-background: #e8e8e8;
+    --tag-hover-background: #d0d0d0;
+    --tag-text-color: #555555;
+    --card-background: #ffffff;
+    --card-border-color: #dddddd;
+    --card-section-header-background: #eeeeee;
+    --header-background: #f8f8f8;
+    --header-text-color: #3a3a3a;
+    --footer-background: #f0f0f0;
+    --link-color: #555555;
+    --link-hover-color: #2a2a2a;
+    --section-separation: 30px;
+}
+
+.dark {
+    --body-background: #1a1a1a;
+    --accent-color: #888888;
+    --accent-color-darker: #aaaaaa;
+    --accent-color-text: #1a1a1a;
+    --body-text-color: #c0c0c0;
+    --tag-background: #2a2a2a;
+    --tag-hover-background: #3a3a3a;
+    --tag-text-color: #aaaaaa;
+    --card-background: #222222;
+    --card-border-color: #333333;
+    --card-section-header-background: #282828;
+    --header-background: #1e1e1e;
+    --header-text-color: #c0c0c0;
+    --footer-background: #1e1e1e;
+    --link-color: #a0a0a0;
+    --link-hover-color: #d0d0d0;
+}
+
+/* 精简元素 */
+.header { border-bottom: 1px solid var(--card-border-color); }
+.footer { border-top: 1px solid var(--card-border-color); }
+.article-card { border: 1px solid var(--card-border-color); }
+.sidebar-card { border: 1px solid var(--card-border-color); }
+button#search-toggle { color: var(--body-text-color); }
